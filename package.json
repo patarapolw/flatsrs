@@ -1,0 +1,17 @@
+{
+  "name": "flatsrs",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "markdown.js",
+  "scripts": {
+    "start": "reveal-md .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pacharapol Withayasakpunt <patarapolw@gmail.com> (https://polvcode.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "@patarapolw/reveal-md-cli": "file:reveal-md"
+  }
+}
