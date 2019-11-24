@@ -1,12 +1,3 @@
-```html
-<style>
-.speak {
-  color: blue;
-  cursor: pointer;
-  text-decoration: underline;
-}
-</style>
-<script>
 window.speak = function(s, lang) {
   const u = new SpeechSynthesisUtterance(s);
   u.lang = lang;
@@ -22,5 +13,3 @@ window.revealMdPlugins.markdown.speakOnly = {
     return `<span class="speak" onclick="speak('${p1}', 'zh-CN')">Click to speak</span>`
   }
 };
-</script>
-```
